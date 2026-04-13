@@ -1,6 +1,6 @@
 # @apirift/cli
 
-[![Tests](https://github.com/YOUR_USERNAME/apirift/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/apirift/actions)
+[![Tests](https://github.com/girish-kor/apirift/actions/workflows/test.yml/badge.svg)](https://github.com/girish-kor/apirift/actions)
 [![npm version](https://badge.fury.io/js/%40apirift%2Fcli.svg)](https://www.npmjs.com/package/@apirift/cli)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
 
@@ -204,8 +204,8 @@ docker run -p 8080:8080 apirift capture \
 
 Or pull from GitHub Container Registry:
 ```bash
-docker pull ghcr.io/YOUR_USERNAME/apirift:latest
-docker run -p 8080:8080 ghcr.io/YOUR_USERNAME/apirift:latest
+docker pull ghcr.io/girish-kor/apirift:latest
+docker run -p 8080:8080 ghcr.io/girish-kor/apirift:latest
 ```
 
 ## 🔒 Security
@@ -320,9 +320,9 @@ See [GITHUB_DEPLOYMENT.md](GITHUB_DEPLOYMENT.md) for deployment instructions.
 
 ## 📞 Support
 
-- 📖 Check [README.md](README.md) and [GITHUB_DEPLOYMENT.md](GITHUB_DEPLOYMENT.md)
-- 🐛 [Report bugs](https://github.com/YOUR_USERNAME/apirift/issues)
-- 💬 [Request features](https://github.com/YOUR_USERNAME/apirift/issues)
+- 📖 Check [README.md](README.md) 
+- 🐛 [Report bugs](https://github.com/girish-kor/apirift/issues)
+- 💬 [Request features](https://github.com/girish-kor/apirift/issues)
 - 💼 For commercial support, contact maintainers
 
 ---
