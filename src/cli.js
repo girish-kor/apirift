@@ -2,6 +2,7 @@
 'use strict';
 
 const { Command } = require('commander');
+const _ = require('lodash');
 const logger = require('./utils/logger');
 const program = new Command();
 
@@ -29,7 +30,7 @@ program
       output:      opts.output,
       maskFields:   opts.maskFields   ? opts.maskFields.split(',').map(s => s.trim())   : [],
       extraHeaders: opts.extraHeaders ? opts.extraHeaders.split(',').map(s => s.trim()) : [],
-      filterPaths:  opts.filterPath   ? new RegExp(opts.filterPath) : null,
+      filterPaths:  opts.filterPath   ? new RegExp(_.escapeRegExp(opts.filterPath)) : null,
       maxBodyKb:    parseInt(opts.maxBodyKb, 10)
     });
   });
